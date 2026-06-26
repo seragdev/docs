@@ -1,13 +1,11 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
+  "projectType": "saas",
+  "projectName": "Mawjat – Art & Culture Magazine",
+  "projectDescription": "A trilingual (Arabic, French, English) art and culture magazine publishing features, interviews, reviews, and cultural commentary.",
   "theme": "willow",
-  "name": "Mawjat – Art & Culture Magazine",
-  "colors": {
-    "primary": "#ef7025",
-    "light": "#eec9bc",
-    "dark": "#4fa1ab"
-  },
-  "favicon": "/favicon.svg",
+  "primaryColor": "#ef7025",
+  "lightColor": "#eec9bc",
+  "darkColor": "#4fa1ab",
   "navigation": {
     "tabs": [
       {
@@ -144,23 +142,14 @@
       }
     ]
   },
-  "navbar": {
-    "links": [
-      {
-        "label": "Contact",
-        "href": "mailto:contact@mawjat.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Subscribe",
-      "href": "/en/contribute/submissions"
-    }
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mawjat",
-      "instagram": "https://instagram.com/mawjat"
-    }
-  }
+  "keyFeatures": [
+    "Trilingual content in Arabic, French, and English",
+    "Visual arts, performing arts, and photography coverage",
+    "Literature, film, and music cultural reviews",
+    "In-depth interviews with artists and cultural figures",
+    "Opinion pieces and critical essays",
+    "Open submissions portal for contributors",
+    "RTL (right-to-left) support for Arabic readers"
+  ],
+  "publicApiSurface": []
 }
